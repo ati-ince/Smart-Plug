@@ -1,1 +1,1 @@
-# SmartPlug Embedded-C Application. 
+**SmartPlug Embedded-C Application**
