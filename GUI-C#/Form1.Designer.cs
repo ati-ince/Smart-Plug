@@ -69,15 +69,15 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -443,7 +443,7 @@
             this.textBox3.Location = new System.Drawing.Point(63, 62);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(106, 20);
+            this.textBox3.Size = new System.Drawing.Size(99, 20);
             this.textBox3.TabIndex = 24;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -453,15 +453,16 @@
             this.textBox6.Location = new System.Drawing.Point(63, 91);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(106, 20);
+            this.textBox6.Size = new System.Drawing.Size(99, 20);
             this.textBox6.TabIndex = 27;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.LightSalmon;
-            this.button3.Location = new System.Drawing.Point(175, 60);
+            this.button3.Location = new System.Drawing.Point(168, 60);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(46, 23);
+            this.button3.Size = new System.Drawing.Size(53, 23);
             this.button3.TabIndex = 21;
             this.button3.Text = "Check";
             this.button3.UseVisualStyleBackColor = false;
@@ -470,9 +471,9 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.LightSalmon;
-            this.button5.Location = new System.Drawing.Point(175, 88);
+            this.button5.Location = new System.Drawing.Point(168, 88);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(46, 23);
+            this.button5.Size = new System.Drawing.Size(53, 23);
             this.button5.TabIndex = 28;
             this.button5.Text = "Check";
             this.button5.UseVisualStyleBackColor = false;
@@ -493,16 +494,16 @@
             this.textBox5.Location = new System.Drawing.Point(63, 35);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(106, 20);
+            this.textBox5.Size = new System.Drawing.Size(99, 20);
             this.textBox5.TabIndex = 32;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.LightSalmon;
-            this.button6.Location = new System.Drawing.Point(175, 33);
+            this.button6.Location = new System.Drawing.Point(168, 33);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(46, 23);
+            this.button6.Size = new System.Drawing.Size(53, 23);
             this.button6.TabIndex = 33;
             this.button6.Text = "Check";
             this.button6.UseVisualStyleBackColor = false;
@@ -534,87 +535,6 @@
             this.groupBox3.Text = "Plug Comm";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // button12
-            // 
-            this.button12.AllowDrop = true;
-            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            this.button12.Location = new System.Drawing.Point(63, 125);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(46, 45);
-            this.button12.TabIndex = 46;
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button13
-            // 
-            this.button13.AllowDrop = true;
-            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
-            this.button13.Location = new System.Drawing.Point(123, 125);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(46, 45);
-            this.button13.TabIndex = 47;
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // button7
-            // 
-            this.button7.AllowDrop = true;
-            this.button7.BackColor = System.Drawing.Color.DarkKhaki;
-            this.button7.Location = new System.Drawing.Point(93, 176);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(53, 45);
-            this.button7.TabIndex = 48;
-            this.button7.Text = "Measur. Start";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click_1);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(75, 75);
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.ErrorImage = null;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(574, 1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(75, 75);
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // button8
-            // 
-            this.button8.AllowDrop = true;
-            this.button8.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button8.Location = new System.Drawing.Point(16, 176);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(53, 45);
-            this.button8.TabIndex = 49;
-            this.button8.Text = "ReStart";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click_1);
-            // 
-            // button9
-            // 
-            this.button9.AllowDrop = true;
-            this.button9.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.button9.Location = new System.Drawing.Point(168, 176);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(53, 45);
-            this.button9.TabIndex = 50;
-            this.button9.Text = "Measur. Stop";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click_1);
-            // 
             // button10
             // 
             this.button10.AllowDrop = true;
@@ -638,6 +558,87 @@
             this.button11.Text = "Filter ON";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click_1);
+            // 
+            // button9
+            // 
+            this.button9.AllowDrop = true;
+            this.button9.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.button9.Location = new System.Drawing.Point(168, 176);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(53, 45);
+            this.button9.TabIndex = 50;
+            this.button9.Text = "Measur. Stop";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
+            // 
+            // button8
+            // 
+            this.button8.AllowDrop = true;
+            this.button8.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button8.Location = new System.Drawing.Point(16, 176);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(53, 45);
+            this.button8.TabIndex = 49;
+            this.button8.Text = "ReStart";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
+            // 
+            // button7
+            // 
+            this.button7.AllowDrop = true;
+            this.button7.BackColor = System.Drawing.Color.DarkKhaki;
+            this.button7.Location = new System.Drawing.Point(93, 176);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(53, 45);
+            this.button7.TabIndex = 48;
+            this.button7.Text = "Measur. Start";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
+            // 
+            // button13
+            // 
+            this.button13.AllowDrop = true;
+            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
+            this.button13.Location = new System.Drawing.Point(123, 125);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(46, 45);
+            this.button13.TabIndex = 47;
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button12
+            // 
+            this.button12.AllowDrop = true;
+            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
+            this.button12.Location = new System.Drawing.Point(63, 125);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(46, 45);
+            this.button12.TabIndex = 46;
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(75, 75);
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.ErrorImage = null;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(574, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(75, 75);
+            this.pictureBox2.TabIndex = 26;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label12
             // 

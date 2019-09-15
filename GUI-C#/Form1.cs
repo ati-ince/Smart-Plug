@@ -86,7 +86,9 @@ namespace WindowsFormsApplication1
             //////
             button4.Enabled = false;// i will open when i start serialport
             ////////////
-            textBox5.Text="";
+            //deneme alanı text i,çin
+           
+            textBox5.Text = "";
             textBox3.Text="";
             textBox6.Text="";
             //textBox4.Text="";
@@ -242,7 +244,7 @@ namespace WindowsFormsApplication1
             double value_Pavr_d = Convert.ToDouble(value_Pavr);
             value_Pavr_R_d = value_Pavr_R_d / ((double)0.36);
             value_Pavr_d = value_Pavr_d * value_Pavr_R_d;
-            textBox5.Text = value_Pavr_d.ToString();
+            textBox5.Text = ((float)value_Pavr_d).ToString();
         }
 
         void Vrms_calibrate_firsth()
@@ -252,7 +254,7 @@ namespace WindowsFormsApplication1
             double value_Pavr_d = Convert.ToDouble(value_Pavr);
             value_Pavr_R_d = value_Pavr_R_d / ((double)0.6);
             value_Pavr_d = value_Pavr_d * value_Pavr_R_d;
-            textBox3.Text = value_Pavr_d.ToString();
+            textBox3.Text = ((float)value_Pavr_d).ToString();
         }
 
         void Irms_calibrate_firsth(double Irms_coming)
@@ -279,7 +281,7 @@ namespace WindowsFormsApplication1
             double value_Pavr_d = Convert.ToDouble(value_Pavr);
             value_Pavr_R_d = value_Pavr_R_d /((double)0.6);
             value_Pavr_d = value_Pavr_d * value_Pavr_R_d;
-            textBox6.Text = value_Pavr_d.ToString();
+            textBox6.Text = ((float)value_Pavr_d).ToString();
         }
 
 
@@ -606,6 +608,7 @@ namespace WindowsFormsApplication1
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
+          
 
         }
 
@@ -616,7 +619,7 @@ namespace WindowsFormsApplication1
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+          
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -702,6 +705,11 @@ namespace WindowsFormsApplication1
         private void label12_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

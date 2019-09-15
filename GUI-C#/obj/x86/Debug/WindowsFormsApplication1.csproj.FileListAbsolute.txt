@@ -1,0 +1,2 @@
+D:\#aktarilanlar\Software Development\!!! ATI_SANTEZ_SOFT_PIC_ve_digerleri\ATI_San-Tez_Proje_Software(C#)-KaynakKodları\San-Tez_Proje_Software\form\cirrus_comm_PLUG_v3\simpleserialcs_1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+D:\#aktarilanlar\Software Development\!!! ATI_SANTEZ_SOFT_PIC_ve_digerleri\ATI_San-Tez_Proje_Software(C#)-KaynakKodları\San-Tez_Proje_Software\form\cirrus_comm_PLUG_v3\simpleserialcs_1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
